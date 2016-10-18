@@ -1,0 +1,126 @@
+img.fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+  z-index: -1;
+}
+
+a.headerlink {
+    visibility: hidden;
+}
+
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink,
+dt:hover > a.headerlink {
+    visibility: visible;
+}
+
+div.figure p.caption {
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    font-size: 0.5em;
+}
+
+.slide-no {
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+    font-size: 50%;
+	color: white;
+}
+
+.slide-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 48%;
+    letter-spacing: 0.1em;
+	color: white;
+	background-color: #323D99;
+	width: 100%;
+	padding-left: 1em;
+	z-index: -1;
+}
+
+div.admonition.note {
+    visibility: hidden;
+    display: none;
+}
+
+div.admonition-todo {
+    background: #F99;
+}
+
+div.admonition.attention {
+    background-color: #fcc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+    border: 1px solid #f00;
+}
+
+div.admonition.attention em {
+    background-color: #fcc;
+    font-weight: bold;
+}
+
+div.admonition.hint {
+    background-color: #cbe7ff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+    border: 1px solid #888;
+}
+
+div.admonition.warning {
+    background-color: #FC0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+    border: 1px solid #888;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.marker {
+    background-color: yellow;
+}
+
+/*
+em  {
+    background-color: #ffbb46;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    font-style: normal !important;
+}
+*/
+
+.mylogo {
+    width: 63px;
+    float: right;
+    margin: -25px -45px;
+}

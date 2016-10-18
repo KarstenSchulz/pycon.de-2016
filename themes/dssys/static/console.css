@@ -1,0 +1,67 @@
+#controls {
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    font-size: 1.5em;
+    font-family:  'Open Sans', Arial, sans-serif;
+}
+
+.slides.table > article {
+    display: inline-block;
+}
+
+article.placeholder {
+    background: #ddd;
+}
+
+.slides.table > article {
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    width: 600px;
+    height: 466px;
+    
+}
+
+.slides.table > article.past {
+  transform: translate(-225px);
+  -o-transform: translate(-225px);
+  -moz-transform: translate(-225px);
+  -webkit-transform: translate3d(-225px, 0, 0);
+  display: none;
+}
+
+.slides.table > article.next {
+  transform: translate(650px);
+  -o-transform: translate(650px);
+  -moz-transform: translate(650px);
+  -webkit-transform: translate3d(650px, 0, 0);
+}
+
+.slides > article.past,
+.slides > article.next {
+    width: 400px;
+    height: 311px;
+
+    margin-top: 60px;
+}
+
+div.presenter_notes {
+	position: absolute;
+	top: 500px;
+	left: 10%;
+	background-color: #FF6;
+	color: black;
+	padding: 1em;
+	width: 80%;
+	font-size: 130%;
+
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div.presenter_notes p.admonition-title {
+	display: none;
+}
