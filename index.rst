@@ -202,9 +202,11 @@ Sockets
 .. only:: not slides
 
     Beim Öffnen eines Sockets wird die IP-Adresse des Client-PCs an den Server übertragen. Die IP-Adresse ist ein personenbezogenes Datum und wird an jemand anderen übermittelt. Es ist ein datenschutzrelevanter Vorgang.
-    
+
+
 Requests
 --------    
+
 .. code-block:: python
 
     import requests
