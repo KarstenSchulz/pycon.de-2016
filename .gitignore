@@ -1,0 +1,4 @@
+.DS_Store
+.doit.db.db
+__pycache__/
+_build/
