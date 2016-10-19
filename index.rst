@@ -55,8 +55,8 @@ Der Vortrag beleuchtet die EU-DSGVO aus dem Blickwinkel der Software-Entwickler 
 
 
 
-Referent
-========
+Wer erzählt hier?
+==================
 
 Der Diplom-Informatiker Karsten Schulz ist GDD-zertifizierter
 Datenschutzexperte und Betriebswirt. Als bundesweit tätiger
@@ -104,7 +104,6 @@ Was geht mich als Coder die EU-DSGVO an?
     .. attention:: Verstöße gegen die EU-DSGVO können dem Nutzer eurer Software bis zu 20.000.000,- EUR Bußgeld kosten!
 
 
-
 Der spätere Nutzer eurer Software muss künftig erweiterte Vorgaben zur Einhaltung des Datenschutzes berücksichtigen. Einige dieser Vorgaben kann er nur einhalten, wenn der Softwareentwickler die notwendigen Informationen, Strukturen und Dokumentation liefert.
 
 Der Nutzer eurer Software ist vor dem Gesetz der sogenannte „Verantwortliche Verarbeiter“, kurz: „Verantwortlicher“. Das bedeutet für ihn, dass er für die korrekte Verarbeitung personenbezogener Daten gerade stehen muss. Wenn er gegen Datenschutz-Bestimmungen verstößt, kann er ab dem 25. Mai 2018\ [#anwendung_geudsgvo]_ mit Bußgeldern belegt werden. Das sind:
@@ -147,6 +146,8 @@ Widerrufe
     Jede Einwilligung kann von der betreffenden Person auch widerrufen werden. Ein solcher Widerruf muss in unseren Strukturen und Abläufen darstellbar sein. Sowohl die Protokollierung, wann der Widerruf auf welche Art stattfand könnte relevant sein, als auch die Sicherstellung, dass der Widerruf wirksam ist.
 Kategorien personenbezogener Daten
     Der Verantwortliche muss dokumentieren, welche personenbezogenen Daten verarbeitet werden. Entwickler können den Anwender der Software dadurch unterstützen, dass sie das Datenmodell im Handbuch dokumentieren.
+Auskunftsprozess
+    Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Funtkionen vorsehen, die eine solche Beauskunftung erleichtern.
 Übermittlungen
     Verantwortliche müssen den betroffenen Personen gegebenenfalls mitteilen, an wen sie die personenbezogenen Daten übermittelt haben. Sollte in der Software eine Übermittlung stattfinden, muss das dokumentiert werden. Beispiele für solche Übermittlungen können sein:
 
@@ -154,9 +155,34 @@ Kategorien personenbezogener Daten
     * Nutzung von Single Sign On Systemen (z. B. OpenID, Facebook-API etc)
     * User Tracking durch einen dritten Dienstleister (z. B. Google, Adobe, Facebook etc)
 
-Auskunftsprozess
-    Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Funtkionen vorsehen, die eine solche Beauskunftung erleichtern.
 
+.. slide:: Gesetzliche Pflichten des Verantwortlichen
+    :level: 2
+
+    Einwilligungen
+        Einwilligungen müssen nachweisbar sein. Falls unsere Software Einwilligungen verarbeitet (z. B. Opt-Ins zu Newslettern oder anderen Verarbeitungen), muss unser Datenmodell diese Einwilligung protokollieren.
+
+    Widerrufe
+        Jede Einwilligung kann von der betreffenden Person auch widerrufen werden. Ein solcher Widerruf muss in unseren Strukturen und Abläufen darstellbar sein. Sowohl die Protokollierung, wann der Widerruf auf welche Art stattfand könnte relevant sein, als auch die Sicherstellung, dass der Widerruf wirksam ist.
+
+.. slide:: Gesetzliche Pflichten des Verantwortlichen
+    :level: 2
+
+    Kategorien personenbezogener Daten
+        Der Verantwortliche muss dokumentieren, welche personenbezogenen Daten verarbeitet werden. Entwickler können den Anwender der Software dadurch unterstützen, dass sie das Datenmodell im Handbuch dokumentieren.
+
+    Auskunftsprozess
+        Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Funtkionen vorsehen, die eine solche Beauskunftung erleichtern.
+
+.. slide:: Gesetzliche Pflichten des Verantwortlichen
+    :level: 2
+
+    Übermittlungen
+        Verantwortliche müssen den betroffenen Personen gegebenenfalls mitteilen, an wen sie die personenbezogenen Daten übermittelt haben. Sollte in der Software eine Übermittlung stattfinden, muss das dokumentiert werden. Beispiele für solche Übermittlungen können sein:
+
+        * Speicherplatz in der Cloud
+        * Nutzung von Single Sign On Systemen (z. B. OpenID, Facebook-API etc)
+        * User Tracking durch einen dritten Dienstleister (z. B. Google, Adobe, Facebook etc)
 
 
 Die wichtigsten Betroffenenrechte nach EU-DSGVO
@@ -164,103 +190,273 @@ Die wichtigsten Betroffenenrechte nach EU-DSGVO
 
 Einige Rechte der betroffenen Person (das ist immer der Besitzer der personenbezogenen Daten) erfordern ebenfalls bestimmte Funktionen in der Software.
 
+.. slide:: Die wichtigsten Betroffenenrechte nach EU-DSGVO
+    :level: 2
+    :inline-contents: True
 
-Recht auf Berichtigung (Art. 16)
-    Alle gespeicherten Daten der betroffenen Person müssen editierbar sein.
-Recht auf Löschung („Recht auf Vergessenwerden“) (Art. 17)
-    Alle gespeicherten Daten der betroffenen Person müssen löschbar sein.
-Löschung öffentlicher Daten („Vergessen“) (Art. 17 Abs. 2)
-    Bei einem Löschbegehren hat der Verantwortliche die Pflicht, andere Empfänger dieser Daten darüber zu informieren, dass ein solches Löschen vom Betroffenen verlangt wird. Die Software muss also nachhalten können, an welche Empfänger Daten in der Vergangenheit übermittelt wurden.
-Recht auf Einschränkung der Verarbeitung (Art. 18)
-    Eine betroffene person kann verlangen, dass ihre Daten nicht gelöscht, sondern für die weitere Verarbeitung gesperrt werden. Wird die Verarbeitung auf diese Art eingeschränkt, dürfen die Daten nur noch gespeichert werden, nicht mehr anderweitig genutzt, übermittelt, geändert oder gelöscht werden.
-    Die Software muss ein entsprechendes „Einschränkungs-Kennzeichen“ im Datenmodell berücksichtigen.
-Recht auf Datenübertragbarkeit „Datenportabilität“ (Art. 20)
-    Künftig haben betroffene Personen das Recht darauf, ihre eigenen Daten in einem nutzbaren Format zu erhalten. Die Software sollte eine entsprechende Export-Funktion enthalten. Nutzbare Formate könnten zum Beipiel JSON, XML oder ein CSV-Dump sein.
+    Recht auf Berichtigung (Art. 16)
+        Alle gespeicherten Daten der betroffenen Person müssen editierbar sein.
+    Recht auf Löschung („Recht auf Vergessenwerden“) (Art. 17)
+        Alle gespeicherten Daten der betroffenen Person müssen löschbar sein.
+    Löschung öffentlicher Daten („Vergessen“) (Art. 17 Abs. 2)
+        Bei einem Löschbegehren hat der Verantwortliche die Pflicht, andere Empfänger dieser Daten darüber zu informieren, dass ein solches Löschen vom Betroffenen verlangt wird. Die Software muss also nachhalten können, an welche Empfänger Daten in der Vergangenheit übermittelt wurden.
+
+.. slide:: Die wichtigsten Betroffenenrechte nach EU-DSGVO
+    :level: 2
+    :inline-contents: True
+
+    Recht auf Einschränkung der Verarbeitung (Art. 18)
+        Eine betroffene person kann verlangen, dass ihre Daten nicht gelöscht, sondern für die weitere Verarbeitung gesperrt werden. Wird die Verarbeitung auf diese Art eingeschränkt, dürfen die Daten nur noch gespeichert werden, nicht mehr anderweitig genutzt, übermittelt, geändert oder gelöscht werden.
+        Die Software muss ein entsprechendes „Einschränkungs-Kennzeichen“ im Datenmodell berücksichtigen.
+    Recht auf Datenübertragbarkeit „Datenportabilität“ (Art. 20)
+        Künftig haben betroffene Personen das Recht darauf, ihre eigenen Daten in einem nutzbaren Format zu erhalten. Die Software sollte eine entsprechende Export-Funktion enthalten. Nutzbare Formate könnten zum Beipiel JSON, XML oder ein CSV-Dump sein.
 
 Wieso muss ich an mehr als an Security Standards denken?
 ========================================================
+
+.. slide:: Wieso muss ich an mehr als an Security Standards denken?
+    :level: 1
+
+.. slide:: Datenschutz vs. Informationssicherheit
+    :level: 2
+
+    .. figure:: _static/ds_vs_is.png
+       :alt: Datenschutz versus Informationssicherheit
+       :align: center
+       :width: 100%
 
 .. figure:: _static/ds_vs_is.png
    :alt: Datenschutz versus Informationssicherheit
    :align: center
    :width: 100%
 
-   Überschneidungen der Maßnahmen bei Datenschutz und Informationssicherheit
+   Überschneidungen der Maßnahmen bei Datenschutz (DS) und Informationssicherheit (IS)
 
 Datenschutz ist nicht gleich Datensicherheit. Datenschutz ist auch nicht nur der Schutz von Daten!
+
 Datensicherheit ist eine Teilmenge des Datenschutzes und manche Maßnahmen, die die Datensicherheit erhöhen, senken den Datenschutz.
+
+Maßnahmen, die die Informationssicherheit (IS) verbessern können unter Umständen den Datenschutz (DS) senken. Umgekehrt ebenfalls.
 
 Die 7 Schutzziele des Datenschutzes
 -----------------------------------
 
-Datensparsamkeit
-    Es werden nur die personenbezogenen Daten verarbeitet, die für den jeweiligen Verarbeitungsschritt erforderlich sind.
-Integrität
-    Die Verarbeitung findet innerhalb der Spezifikation in der Art statt, dass die Daten unversehrt und vollständig bleiben.
-Intervenierbarkeit
-    Mit Intervenierbarkeit ist gemeint, dass die datenverarbeitenden Verfahren so gestaltet sind, dass die Rechte der Betroffenen jederzeit und vollständig ausgeübt werden können.
-Nichtverkettbarkeit
-    Das Zusammenführen von Daten, die zu unterschiedlichen Zwecken verarbeitet werden, ist ohne Einwilligung des Betroffenen zu verhindern.
-Transparenz
-    Interessierte Parteien (Verantwortlicher, betroffene Person, Aufsicht) können Einsicht nehmen und nachvollziehen, welche Daten zu welchem Zweck mit welchen Mitteln verarbeitet werden.
-Verfügbarkeit
-    Die personenbezogenen Daten stehen zeitgerecht zur Verfügung, sind auffindbar und werden in den zugeordneten Prozessen sachgerecht verarbeitet.
-Vertraulichkeit
-    Nur befugte Personen können auf die Daten zugreifen. Befugt sind nur die Personen, deren zweckgebundene Aufgabenerfüllung den Zugriff auf die Daten erforderlich macht.
+
+.. slide:: Die 7 Schutzziele des Datenschutzes
+    :level: 2
+    :inline-contents: True
+
+    Datensparsamkeit (DS)
+        Es werden nur die personenbezogenen Daten verarbeitet, die für den jeweiligen Verarbeitungsschritt erforderlich sind.
+.. slide:: Die 7 Schutzziele des Datenschutzes
+    :level: 2
+    :inline-contents: True
+
+    Integrität (DS & IS)
+        Die Verarbeitung findet innerhalb der Spezifikation in der Art statt, dass die Daten unversehrt und vollständig bleiben.
+    Intervenierbarkeit (DS)
+        Mit Intervenierbarkeit ist gemeint, dass die datenverarbeitenden Verfahren so gestaltet sind, dass die Rechte der Betroffenen jederzeit und vollständig ausgeübt werden können.
+.. slide:: Die 7 Schutzziele des Datenschutzes
+    :level: 2
+    :inline-contents: True
+
+    Nichtverkettbarkeit (DS)
+        Das Zusammenführen von Daten, die zu unterschiedlichen Zwecken verarbeitet werden, ist ohne Einwilligung des Betroffenen zu verhindern.
+    Transparenz (DS)
+        Interessierte Parteien (Verantwortlicher, betroffene Person, Aufsicht) können Einsicht nehmen und nachvollziehen, welche Daten zu welchem Zweck mit welchen Mitteln verarbeitet werden.
+.. slide:: Die 7 Schutzziele des Datenschutzes
+    :level: 2
+    :inline-contents: True
+
+    Verfügbarkeit  (DS & IS)
+        Die personenbezogenen Daten stehen zeitgerecht zur Verfügung, sind auffindbar und werden in den zugeordneten Prozessen sachgerecht verarbeitet.
+    Vertraulichkeit  (DS & IS)
+        Nur befugte Personen können auf die Daten zugreifen. Befugt sind nur die Personen, deren zweckgebundene Aufgabenerfüllung den Zugriff auf die Daten erforderlich macht.
 
 Mögliche Konflikte von Schutzmaßnahmen
 ----------------------------------------
 
-.. csv-table:: Auswirkungen der Maßnahmen für ...
-    :header: "","Informationssicherheit","Datenschutz"
+.. slide:: Mögliche Konflikte von Schutzmaßnahmen
+    :level: 2
+    :inline-contents: True
 
-    "Webproxy","gut","schlecht"
-    "Serverprotokolle","gut","schlecht"
-    "Eingabekontrolle","gut","gut"
-    "Intervenierbarkeit","schlecht","gut"
-    "Transparenz","schlecht","gut"
-    "Integrität","gut","gut"
-    "Richtlinien für Mitarbeiter","gut","gut"
+    .. csv-table:: Auswirkungen der Maßnahmen für ...
+        :header: "","Informationssicherheit (IS)","Datenschutz (DS)"
+
+        "Webproxy","gut","schlecht"
+        "Serverprotokolle","gut","schlecht"
+        "Eingabekontrolle","gut","gut"
+        "Intervenierbarkeit","schlecht","gut"
+        "Transparenz","schlecht","gut"
+        "Integrität","gut","gut"
+        "Richtlinien für Mitarbeiter","gut","gut"
 
 
 Worum geht es beim Datenschutz jetzt wirklich?
 ----------------------------------------------
 
-Datenschutz soll folgende Aspekte der Datenverarbeitung sicherstellen. 
+Datenschutz soll folgende Aspekte der Datenverarbeitung sicherstellen.
 
-Die betroffene Person weiß immer welche ihrer Daten von wem zu welchen Zwecken warum wie verarbeitet werden. Und sie kann intervenieren:
+.. slide:: Worum geht es beim Datenschutz jetzt wirklich?
+    :level: 2
+    :inline-contents: True
 
-  * sie erhält Auskunft,
-  * kann berichtigen lassen,
-  * kann löschen lassen,
-  * kann die Verarbeitung einschränken lassen,
-  * kann die Einwilligung zur Verarbeitung widerufen.
-  
-Sichere Software stellt nicht zwangsläufig die genannten Punkte sicher.
-   
+    .. hint:: Die betroffene Person weiß immer welche ihrer Daten von wem zu welchen Zwecken warum wie verarbeitet werden.
+
+
+    .. hint:: Die Betroffene Person kann Ihre Rechte wahrnehmen:
+
+      * sie erhält Auskunft,
+      * kann berichtigen lassen,
+      * kann löschen lassen,
+      * kann die Verarbeitung einschränken lassen,
+      * kann die Einwilligung zur Verarbeitung widerufen.
+
+
+Sichere Software und sicher Laufzeitumgebungen stellen nicht zwangsläufig und automatisch die genannten Punkte sicher.
+
+Datenschutzaspekte der Software gehören als *user story* ins *backlog*.
 
 
 Um welche Teile meiner Arbeit geht es?
 ======================================
 
-.. figure:: _static/apple_uuids.png
-   :alt: personenbezogene Daten im Apple iPhone
-   :align: center
-   :width: 40%
 
-   Personenbezogene Daten in Apples iPhone unter iOS 10
+Personenbezogene Daten im iPhone
+--------------------------------
 
+*Personenbezogene Daten* sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person.
+
+
+.. slide:: Personenbezogene Daten sind fast überall
+    :level: 2
+    :inline-contents: True
+
+
+    .. figure:: _static/apple_uuids.png
+       :alt: personenbezogene Daten im Apple iPhone
+       :align: center
+       :width: 40%
+
+       Personenbezogene Daten in Apples iPhone unter iOS 10
+
+
+Personenbezogene Daten beim Tracking
+------------------------------------
+
+Das Erstellen von pseudonymen Nutzungsprofilen ist in Grenzen erlaubt. § 15 TMG Abs. 3:
+
+„*(3) Der Diensteanbieter darf für Zwecke der Werbung, der Marktforschung oder zur bedarfsgerechten Gestaltung der Telemedien Nutzungsprofile bei Verwendung von Pseudonymen erstellen, sofern der Nutzer dem nicht widerspricht. Der Diensteanbieter hat den Nutzer auf sein Widerspruchsrecht im Rahmen der Unterrichtung nach § 13 Abs. 1 hinzuweisen.*“
+
+.. slide:: Personenbezogene Daten sind fast überall
+    :level: 2
+    :inline-contents: True
+
+    .. figure:: _static/bahn_app.png
+       :alt: Widerspruchsmöglichkeit gegen Tracking in der Bahn App
+       :align: center
+       :width: 40%
+
+       Widerspruchsmöglichkeit gegen Tracking in der Bahn App
+
+
+Personenbezogene Daten in der Django Middleware
+-----------------------------------------------
+
+.. slide:: Personenbezogene Daten sind fast überall
+    :level: 2
+    :inline-contents: True
+
+    .. code-block:: python
+        :emphasize-lines: 2,5,7,8
+        :linenos:
+
+        MIDDLEWARE_CLASSES = (
+            'django.contrib.sessions.middleware.SessionMiddleware',
+            'django.middleware.locale.LocaleMiddleware',
+            'django.middleware.common.CommonMiddleware',
+            'django.middleware.common.BrokenLinkEmailsMiddleware',
+            'django.middleware.csrf.CsrfViewMiddleware',
+            'django.contrib.auth.middleware.AuthenticationMiddleware',
+            'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+            'django.contrib.messages.middleware.MessageMiddleware',
+            'django.middleware.clickjacking.XFrameOptionsMiddleware',
+            'django.middleware.security.SecurityMiddleware',
+        )
+
+
+In den Zeilen 2,5,7 und 8 werden personenbezogene Daten verarbeitet:
+
+django.contrib.sessions.middleware.SessionMiddleware
+    Eine Session ist meistens einem anonymen oder bekannten User zugeordnet. Unabhängig davon, ob ich ih kenne oder nicht, ist es eine Person, die über Datenschutzrechte verfügt.
+django.middleware.common.BrokenLinkEmailsMiddleware
+    Die E-Mail geht an eine Person. Ja, auch der Admin ist eine Person.
+django.contrib.auth.middleware.AuthenticationMiddleware
+    Diese Middleware ist gerade dazu da, einen eindeutigen Personenbezug herzustellen.
+django.contrib.auth.middleware.SessionAuthenticationMiddleware
+    Sessionverwaltung, siehe oben.
+
+
+Personenbezogene Daten im Django Datenmodell
+--------------------------------------------
+
+.. slide:: Personenbezogene Daten sind fast überall
+    :level: 2
+    :inline-contents: True
+
+    .. code-block:: python
+        :emphasize-lines: 3-5,9,10
+        :linenos:
+
+        class Person(AbstractContact):
+
+            user = models.OneToOneField(settings.AUTH_USER_MODEL, null=True,
+                                        unique=True, default=None,
+                                        related_name='profile')
+            newsletter = models.BooleanField(default=True,
+                help_text=_('Please check this, if you want to receive our newsletter')
+            )
+            first_name = models.CharField(_('first name'), max_length=50, blank=True)
+            last_name = models.CharField(_('last name'), max_length=50, blank=True)
+
+In diesem Code-Block werden Benutzerdaten (Vorname, Nachname) zu einer digitalen Identität (``user``) zugespeichert.
+
+
+Personenbezogene Daten im Web-Frontend
+--------------------------------------
+
+Profil- oder Kontaktformulare enthalten personenbezogene Daten. In den Zeilen 8 und 9 werden Formulare automatisch erzeigt, mit denen die Daten durch das Netz an den Client und wieder zurück gesendet werden.
+
+.. slide:: Personenbezogene Daten sind fast überall
+    :level: 2
+    :inline-contents: True
+
+    .. code-block:: html
+        :emphasize-lines: 8,9
+        :linenos:
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2 class="panel-title">Stammdaten</h2>
+            </div>
+            <div class="panel-body">
+                <form id="profile_form" action="" method="post">
+                    {% csrf_token %}
+                    {{ user_form|crispy }}
+                    {{ profile_form|crispy }}
+                    <div>
+                        <button class="btn btn-primary pull-right" 
+                                type="submit" 
+                                name=”submit”>Speichern</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
 
 Best Practices
 ==============
 
-.. figure:: _static/bahn_app.png
-   :alt: Widerspruchsmöglichkeit gegen Tracking in der Bahn App
-   :align: center
-   :width: 40%
-
-   Widerspruchsmöglichkeit gegen Tracking in der Bahn App
 
 
 Quellen
