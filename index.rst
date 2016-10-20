@@ -77,9 +77,11 @@ C++ realisiert. In der Web-Entwicklung setzt er meistens Django als Framework ei
     :width: 100%
 
 
-.. slide:: Karsten Schulz
+.. slide::
     :level: 2
 
+    | 
+    
     .. rst-class:: referentenlogo
 
     .. image:: _static/referent1.*
@@ -140,49 +142,57 @@ http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv%3AOJ.L_.2016.119.01.0
     "☐","Übermittlungen dokumentieren","EGs: 48, 101, 102, 110 - 115; Art.: 13 Abs. 1f, 14 Abs. 1f, 15 Abs. 2, 30 Abs. 1e, 30 Abs. 2c, 44 - 50"
     "☐","Auskunftsprozess an betroffene Personen gestalten","EGs: 39, 63, 64; Art.: 13 Abs. 2b, 14 Abs. 2c, 15"
 
-Einwilligungen
-    Einwilligungen müssen nachweisbar sein. Falls unsere Software Einwilligungen verarbeitet (z. B. Opt-Ins zu Newslettern oder anderen Verarbeitungen), muss unser Datenmodell diese Einwilligung protokollieren.
-Widerrufe
-    Jede Einwilligung kann von der betreffenden Person auch widerrufen werden. Ein solcher Widerruf muss in unseren Strukturen und Abläufen darstellbar sein. Sowohl die Protokollierung, wann der Widerruf auf welche Art stattfand könnte relevant sein, als auch die Sicherstellung, dass der Widerruf wirksam ist.
-Kategorien personenbezogener Daten
-    Der Verantwortliche muss dokumentieren, welche personenbezogenen Daten verarbeitet werden. Entwickler können den Anwender der Software dadurch unterstützen, dass sie das Datenmodell im Handbuch dokumentieren.
-Auskunftsprozess
-    Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Funtkionen vorsehen, die eine solche Beauskunftung erleichtern.
-Übermittlungen
-    Verantwortliche müssen den betroffenen Personen gegebenenfalls mitteilen, an wen sie die personenbezogenen Daten übermittelt haben. Sollte in der Software eine Übermittlung stattfinden, muss das dokumentiert werden. Beispiele für solche Übermittlungen können sein:
-
-    * Speicherplatz in der Cloud
-    * Nutzung von Single Sign On Systemen (z. B. OpenID, Facebook-API etc)
-    * User Tracking durch einen dritten Dienstleister (z. B. Google, Adobe, Facebook etc)
 
 
 .. slide:: Gesetzliche Pflichten des Verantwortlichen
     :level: 2
-
+    :inline-contents: True
+    
     Einwilligungen
         Einwilligungen müssen nachweisbar sein. Falls unsere Software Einwilligungen verarbeitet (z. B. Opt-Ins zu Newslettern oder anderen Verarbeitungen), muss unser Datenmodell diese Einwilligung protokollieren.
-
-    Widerrufe
-        Jede Einwilligung kann von der betreffenden Person auch widerrufen werden. Ein solcher Widerruf muss in unseren Strukturen und Abläufen darstellbar sein. Sowohl die Protokollierung, wann der Widerruf auf welche Art stattfand könnte relevant sein, als auch die Sicherstellung, dass der Widerruf wirksam ist.
+        
+    .. hint:: Einwilligungen protokollieren.
 
 .. slide:: Gesetzliche Pflichten des Verantwortlichen
     :level: 2
+    :inline-contents: True
+
+    Widerrufe
+        Jede Einwilligung kann von der betreffenden Person auch widerrufen werden. Ein solcher Widerruf muss in unseren Strukturen und Abläufen darstellbar sein. Sowohl die Protokollierung wann der Widerruf auf welche Art stattfand, ist relevant, als auch die Sicherstellung, dass der Widerruf wirksam ist.
+
+    .. hint:: Widerrufe protokollieren.
+
+.. slide:: Gesetzliche Pflichten des Verantwortlichen
+    :level: 2
+    :inline-contents: True
 
     Kategorien personenbezogener Daten
         Der Verantwortliche muss dokumentieren, welche personenbezogenen Daten verarbeitet werden. Entwickler können den Anwender der Software dadurch unterstützen, dass sie das Datenmodell im Handbuch dokumentieren.
 
-    Auskunftsprozess
-        Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Funtkionen vorsehen, die eine solche Beauskunftung erleichtern.
+    .. hint:: Datenstrukturen / -modell in die Dokumentation!
 
 .. slide:: Gesetzliche Pflichten des Verantwortlichen
     :level: 2
+    :inline-contents: True
+
+    Auskunftsprozess
+        Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Möglichkeiten vorsehen, die eine solche Beauskunftung erleichtern. Die Auskunft muss alle Daten zu einer Person umfassen. Aus allen Datenbanken und aus allen Tabellen. 
+        
+    .. hint:: Vollständige und korrekte Beauskunftung durch Funktion oder Dokumentation gewährleisten.
+    
+.. slide:: Gesetzliche Pflichten des Verantwortlichen
+    :level: 2
+    :inline-contents: True
 
     Übermittlungen
-        Verantwortliche müssen den betroffenen Personen gegebenenfalls mitteilen, an wen sie die personenbezogenen Daten übermittelt haben. Sollte in der Software eine Übermittlung stattfinden, muss das dokumentiert werden. Beispiele für solche Übermittlungen können sein:
-
+        Künftig muss der Verantwortliche angeben können, an welche Empfänger oder Empfängerkategorien Daten übermittelt wurden, zum Beispiel bei:
+        
         * Speicherplatz in der Cloud
-        * Nutzung von Single Sign On Systemen (z. B. OpenID, Facebook-API etc)
-        * User Tracking durch einen dritten Dienstleister (z. B. Google, Adobe, Facebook etc)
+        * Nutzung von Single Sign On Systemen (OpenID etc.)
+        * User Tracking durch Dritte (Google & Co.)
+        * Übermittlung an andere Empfänger
+
+    .. hint:: Alle Übermittlungen darstellen und dokumentieren. Ggfs. Übermittlungen optional machen.
 
 
 Die wichtigsten Betroffenenrechte nach EU-DSGVO
@@ -317,9 +327,49 @@ Sichere Software und sicher Laufzeitumgebungen stellen nicht zwangsläufig und a
 
 Datenschutzaspekte der Software gehören als *user story* ins *backlog*.
 
+Datenschutz by Design und by Default (Art. 25)
+==============================================
+
+.. slide:: Datenschutz by Design und by Default (Art. 25)
+    :level: 1
+
+.. slide:: Datenschutz by Design 
+    :level: 2
+    
+    Der Verantwortliche sorgt
+    
+    * zum Zeitpunkt der Festlegung der Mittel
+    * zum Zeitpunkt der eigentlichen Verarbeitung
+    
+    für geeignete technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten
+
+Artikel 25 der EU-DSGVO „Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen“ verlangt vom Verarbeiter, dass sowohl bei der Festlegung der Mittel für die Verarbeitung, also auch beim Definieren der Anforderungen der Funktionen und Datenstrukturen der Software, als auch beim Betreiben, also beim Nutzen der Software, Datenschutz eingehalten wird:
+
+    Art. 25 Abs. 1: Unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere der mit der Verarbeitung verbundenen Risiken für die Rechte und Freiheiten natürlicher Personen trifft der Verantwortliche sowohl zum Zeitpunkt der Festlegung der Mittel für die Verarbeitung als auch zum Zeitpunkt der eigentlichen Verarbeitung geeignete technische und organisatorische Maßnahmen — wie z. B. Pseudonymisierung — trifft, die dafür ausgelegt sind, die Datenschutzgrundsätze wie etwa Datenminimierung wirksam umzusetzen und die notwendigen Garantien in die Verarbeitung aufzunehmen, um den Anforderungen dieser Verordnung zu genügen und die Rechte der betroffenen Personen zu schützen.
+    
+.. slide:: Datenschutz by Default
+    :level: 2
+    
+    Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, die sicherstellen, dass
+    
+    * Datenminimierung
+    * Zweckgebundenheit
+    * Vertraulichkeit
+    
+    gewährleistet ist.
+
+
+Bei der Verarbeitung, muss eine Software datenschutzfreundliche Voreinstellungen aufweisen:
+
+    Art. 25 Abs. 2: Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, die sicherstellen, dass durch Voreinstellung grundsätzlich nur personenbezogene Daten, deren Verarbeitung für den jeweiligen bestimmten Verarbeitungszweck erforderlich ist, verarbeitet werden. Diese Verpflichtung gilt für die Menge der erhobenen personenbezogenen Daten, den Umfang ihrer Verarbeitung, ihre Speicherfrist und ihre Zugänglichkeit. Solche Maßnahmen müssen insbesondere sicherstellen, dass personenbezogene Daten durch Voreinstellungen nicht ohne Eingreifen der Person einer unbestimmten Zahl von natürlichen Personen zugänglich gemacht werden.
+    
+
 
 Um welche Teile meiner Arbeit geht es?
 ======================================
+
+Als Coder sind die nachfolgenden Aspekte zu berücksichtigen.
+
 
 
 Personenbezogene Daten im iPhone
@@ -445,8 +495,8 @@ Profil- oder Kontaktformulare enthalten personenbezogene Daten. In den Zeilen 8 
                     {{ user_form|crispy }}
                     {{ profile_form|crispy }}
                     <div>
-                        <button class="btn btn-primary pull-right" 
-                                type="submit" 
+                        <button class="btn btn-primary pull-right"
+                                type="submit"
                                 name=”submit”>Speichern</button>
                     </div>
                 </form>
