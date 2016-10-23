@@ -48,7 +48,7 @@ rst_prolog = """
 slide_theme = 'dssys'
 slide_title = u'Programmierer & EU-DSGVO'
 html_short_title = 'Programmierer & EU-DSGVO'
-slide_footer = '©2016, Karsten Schulz' \
+slide_footer = '©2016 CC BY-SA 4.0, Karsten Schulz' \
                '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pycon16de - Datenschutz und Programmierer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp' \
                '{today}'.format(today=strftime("%Y-%m-%d"))
 slide_numbers = True
@@ -74,8 +74,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Programmierer und die EU-DSGVO'
-copyright = '2016, Dipl.-Inform. Karsten Schulz'
-author = 'Dipl.-Inform. Karsten Schulz'
+copyright = 'CC BY-SA 4.0 2016, Karsten Schulz, Datenschutz.systems, Dortmund'
+author = 'Karsten Schulz, Datenschutz.systems'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
