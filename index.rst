@@ -38,39 +38,32 @@ Datenschutz und Programmierer
     :level: 2
 
     * Was geht mich als Coder die EU-DSGVO an?
-    * Wieso muss ich an mehr als an Security Standards denken?
-    * Um welche Teile meiner Arbeit geht es?
-    * Best Practices
-    * Quellen
+    * Wieso reicht es nicht, dass mein Code sicher ist?
+    * Beispiele?
+    * Quellen zum Nachlesen?
 
-Professionelle Programmierer, deren Produkte auch personenbezogene Daten verarbeiten, sollten sich im eigenen Interesse ab sofort mit dem Thema Datenschutz beschäftigen und damit sicherstellen, dass ihre Software auch in Zukunft noch benutzt werden darf. Am 25. Mai 2016 ist die EU-Datenschutz Grundverordnung (EU-DSGVO) in Kraft getreten, deren Vorschriften bei der Verarbeitung von personenbezogene Daten demnächst eingehalten werden müssen.
+Professionelle Programmierer, deren Produkte auch personenbezogene Daten verarbeiten, sollten sich im eigenen Interesse ab sofort mit dem Thema Datenschutz beschäftigen und damit sicherstellen, dass ihre Software auch in Zukunft noch benutzt werden darf. Am 25. Mai 2016 ist die EU-Datenschutz Grundverordnung (EU-DSGVO) in Kraft getreten. Diese Vorschrift muss bei der Verarbeitung von personenbezogene Daten ab dem 25. Mai 2018 obligatorisch eingehalten werden.
 
 Personenbezogene Daten sind beispielsweise Benutzernamen und -anschriften. Aber auch Login-Daten, E-Mail Adressen, Session-Cookies und sämtliche anderen Informationen, die eine natürliche Person identifizierbar machen. Nahezu jede Software verarbeitet in irgendeiner Form personenbezogene Daten.
 
-Das neue, europaweit geltende Gesetz enthält konkrete Vorgaben, die Einfluss auf die Gestaltung von Software haben. Der Betreiber der Software, also der Käufer oder Auftraggeber, ist verantwortlich dafür, dass die Software die Vorgaben EU-DSGVO einhält. Bei Verstoss droht Bußgeld.
+Das neue, europaweit geltende Gesetz enthält konkrete Vorgaben, die Einfluss auf die Gestaltung von Software haben. Der Betreiber der Software, also der Käufer oder Auftraggeber, ist verantwortlich dafür, dass die Software beim Betrieb die Vorgaben EU-DSGVO einhält. Bei Verstoss droht Bußgeld.
 
-Für den professionellen Programmierer gibt es unter diesen Umständen nur eine logische Schlussfolgerung. Und die lautet: „Möchte ich künftig meine Software in der EU an den Mann bringen, muss sie EU-DSGVO-konform sein, sonst kauft sie keiner mehr.“ Schließlich möchte kein Kunde ein Bußgeld riskieren, nur weil der Programmierer die gesetzlichen Vorgaben nicht umgesetzt hat.
+Für den professionellen Programmierer gibt es unter diesen Umständen nur eine logische Schlussfolgerung. Und die lautet: „*Möchte ich künftig meine Software in der EU an den Mann bringen, muss sie EU-DSGVO-konform sein, sonst kauft sie keiner mehr.*“ Schließlich möchte kein Kunde ein Bußgeld riskieren, nur weil der Programmierer die gesetzlichen Vorgaben nicht umgesetzt hat.
 
-Der Vortrag beleuchtet die EU-DSGVO aus dem Blickwinkel der Software-Entwickler und -Architekten. Neben einem fundierten Überblick, worum es überhaupt geht, werden auch konkrete Tipps und Tricks aus dem Umfeld der Python Programmierung gegeben. So wird beispielsweise anhand einer Django-App gezeigt, wie Systeme so zu gestalten sind, dass sie auch unter dem neuen Datenschutz-Recht in der EU im geschäftlichen Umfeld einsetzbar und damit an den Kunden zu bringen sind.
+Dieser Vortrag beleuchtet die EU-DSGVO aus dem Blickwinkel der Software-Entwickler und -Architekten. Neben einem fundierten Überblick, worum es überhaupt geht, werden auch konkrete Tipps und Tricks aus dem Umfeld der Python Programmierung gegeben. So wird beispielsweise anhand einer Django-App gezeigt, wie Systeme so zu gestalten sind, dass sie auch unter dem neuen Datenschutz-Recht in der EU im geschäftlichen Umfeld einsetzbar und damit an den Kunden zu bringen sind.
 
 
 
 Wer erzählt hier?
 ==================
 
-Der Diplom-Informatiker Karsten Schulz ist GDD-zertifizierter
-Datenschutzexperte und Betriebswirt. Als bundesweit tätiger
-Datenschutzbeauftragter und -berater verfügt er über jahrelange Erfahrung in
-der effizienten Umsetzung von Datenschutz im Unternehmen. Darüber hinaus ist er
-Lehrbeauftragter der Fachhochschule Dortmund, Fachautor und Gutachter für die
-IHK Dortmund.
+Der Diplom-Informatiker Karsten Schulz ist GDD-zertifizierter Datenschutzexperte und Betriebswirt. Als bundesweit tätiger Datenschutzbeauftragter und -berater verfügt er über jahrelange Erfahrung in der effizienten Umsetzung von Datenschutz im Unternehmen. Darüber hinaus ist er Lehrbeauftragter der Fachhochschule Dortmund, Fachautor und Gutachter für die IHK Dortmund.
 
-Für die TÜV NORD Akademie hält er die Seminare „Datenschutz Cloud-Computing“,
-„Datenschutz Social Media“ und „Die EU-Datenschutz-Grundverordnung.“
+Er berät als externer Berater Kunden wie die Deutsche Fußball Liga GmbH, Caterpillar oder den Deutschen Mieterbund. 
 
-Python hat er vor einigen Jahren kennen und schätzen gelernt. Sowohl die persönlichen
-Projekte, wie auch die professionellen werden von ihm hauptsächlich in Python, Bash und
-C++ realisiert. In der Web-Entwicklung setzt er meistens Django als Framework ein.
+Für die TÜV NORD Akademie hält er Seminare wie „Datenschutz Cloud-Computing“, „Datenschutz Social Media“ und „Die EU-Datenschutz-Grundverordnung.“
+
+Die Programmiersprache Python hat er vor vielen Jahren kennen und schätzen gelernt. Sowohl seine persönlichen Projekte wie auch die professionellen werden von ihm hauptsächlich in Python realisiert. Bei der Web-Entwicklung setzt er meistens Django als Framework ein.
 
 .. image:: _static/referent1.*
     :align: center
@@ -80,8 +73,8 @@ C++ realisiert. In der Web-Entwicklung setzt er meistens Django als Framework ei
 .. slide::
     :level: 2
 
-    | 
-    
+    |
+
     .. rst-class:: referentenlogo
 
     .. image:: _static/referent1.*
@@ -101,12 +94,13 @@ Was geht mich als Coder die EU-DSGVO an?
       * Cloud-Anbieter (IaaS, PaaS)
       * alle Unternehmen mit Niederlassungen in der EU uvm.
 
-    * Nutzer eurer Software müssen die EU-DSGVO ebenfalls einhalten
+    .. attention:: 
+    
+        **Nutzer Eurer Software müssen die EU-DSGVO einhalten**
+    
+        Verstöße gegen die EU-DSGVO können dem Nutzer eurer Software bis zu 20.000.000,- EUR Bußgeld kosten!
 
-    .. attention:: Verstöße gegen die EU-DSGVO können dem Nutzer eurer Software bis zu 20.000.000,- EUR Bußgeld kosten!
-
-
-Der spätere Nutzer eurer Software muss künftig erweiterte Vorgaben zur Einhaltung des Datenschutzes berücksichtigen. Einige dieser Vorgaben kann er nur einhalten, wenn der Softwareentwickler die notwendigen Informationen, Strukturen und Dokumentation liefert.
+Der spätere Nutzer Eurer Software muss künftig erweiterte Vorgaben zur Einhaltung des Datenschutzes einhalten und nachweisen können. Einige dieser Vorgaben kann er nur einhalten, wenn Ihr als Softwareentwickler die notwendigen Informationen, Strukturen, Funktionen und Dokumentation liefert.
 
 Der Nutzer eurer Software ist vor dem Gesetz der sogenannte „Verantwortliche Verarbeiter“, kurz: „Verantwortlicher“. Das bedeutet für ihn, dass er für die korrekte Verarbeitung personenbezogener Daten gerade stehen muss. Wenn er gegen Datenschutz-Bestimmungen verstößt, kann er ab dem 25. Mai 2018\ [#anwendung_geudsgvo]_ mit Bußgeldern belegt werden. Das sind:
 
@@ -115,7 +109,7 @@ Der Nutzer eurer Software ist vor dem Gesetz der sogenannte „Verantwortliche V
 
 je nachdem, was höher ist.
 
-Es ist klar, dass der Verantwortliche sehr genau darauf achten wird, dass die Verarbeitung personenbezogener Daten korrekt verläuft. Wie kann er das sicherstellen? Er muss seine gesetzlichen Pflichten einhalten.
+Es ist klar, dass der Verantwortliche sehr genau darauf achten wird, dass die Verarbeitung personenbezogener Daten korrekt verläuft. 
 
 .. [#anwendung_geudsgvo] Die EU-DSGVO trat am 25. Mai 2016 in Kraft. Es gibt eine Übergangszeit bis zum 25. Mai 2018. Ab diesem Datum müssen die Vorschriften angewendet werden.
 
@@ -123,7 +117,7 @@ Es ist klar, dass der Verantwortliche sehr genau darauf achten wird, dass die Ve
 Gesetzliche Pflichten des Verantwortlichen
 -------------------------------------------
 
-Nachfolgend ein Auszug der gesetzlichen Pflichten des für die Verarbeitung Verantwortlichen. Dies ist keine vollständige Darstellung sondern nur die Pflichten, auf deren Erfüllung  wir als Softwareentwickler Einfluss haben.
+Nachfolgend ein Auszug der gesetzlichen Pflichten des Verantwortlichen. Dies ist keine vollständige Darstellung sondern nur die Pflichten, auf deren Erfüllung wir als Softwareentwickler Einfluss haben.
 
 In der Tabelle werden die Pflichten mit den Fundstellen in der EU-Datenschutz-Grundverordnung aufgelistet. Dabei bedeutet die Abkürzung „Art.“ Artikel (so etwas wie ein Paragraf im deutschen Recht) und die Abkürzung „EG“ Erwägungsgrund, ein kurzer Text des europäischen Gesetzgebers, der die Intention einer Regelung beschreibt.
 
@@ -136,21 +130,19 @@ http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv%3AOJ.L_.2016.119.01.0
    :header: "","Pflicht","Begründung"
    :widths: 10,45,45
 
-    "☐","Verwalten von Einwilligungen","EGs: 32, 38, 42, 43, 171;  Art.: 4 Nr. 11, 7, 8, 9, 22 Abs. 2c"
+    "☐","Verwalten von Einwilligungen (z. B. von Kunden)","EGs: 32, 38, 42, 43, 171;  Art.: 4 Nr. 11, 7, 8, 9, 22 Abs. 2c"
     "☐","Verwalten von Widerrufen","EG 65; Art.: 7 Abs. 3, 17 "
     "☐","Kategorien personenbezogener Daten dokumentieren","EGs: 51 - 54; Art.: 9, 14, 15, 30 Abs. 1c, 30 Abs. 5, 33 Abs. 3a, 35 Abs. 3b, 83 Abs. 2g"
-    "☐","Übermittlungen dokumentieren","EGs: 48, 101, 102, 110 - 115; Art.: 13 Abs. 1f, 14 Abs. 1f, 15 Abs. 2, 30 Abs. 1e, 30 Abs. 2c, 44 - 50"
+    "☐","Übermittlungen an Andere dokumentieren","EGs: 48, 101, 102, 110 - 115; Art.: 13 Abs. 1f, 14 Abs. 1f, 15 Abs. 2, 30 Abs. 1e, 30 Abs. 2c, 44 - 50"
     "☐","Auskunftsprozess an betroffene Personen gestalten","EGs: 39, 63, 64; Art.: 13 Abs. 2b, 14 Abs. 2c, 15"
-
-
 
 .. slide:: Gesetzliche Pflichten des Verantwortlichen
     :level: 2
     :inline-contents: True
-    
+
     Einwilligungen
-        Einwilligungen müssen nachweisbar sein. Falls unsere Software Einwilligungen verarbeitet (z. B. Opt-Ins zu Newslettern oder anderen Verarbeitungen), muss unser Datenmodell diese Einwilligung protokollieren.
-        
+        Einwilligungen müssen nachweisbar sein. Falls eine Software Einwilligungen verarbeitet (z. B. Opt-Ins zu Newslettern oder anderen Verarbeitungen), muss das Datenmodell diese Einwilligung protokollieren.
+
     .. hint:: Einwilligungen protokollieren.
 
 .. slide:: Gesetzliche Pflichten des Verantwortlichen
@@ -158,7 +150,7 @@ http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv%3AOJ.L_.2016.119.01.0
     :inline-contents: True
 
     Widerrufe
-        Jede Einwilligung kann von der betreffenden Person auch widerrufen werden. Ein solcher Widerruf muss in unseren Strukturen und Abläufen darstellbar sein. Sowohl die Protokollierung wann der Widerruf auf welche Art stattfand, ist relevant, als auch die Sicherstellung, dass der Widerruf wirksam ist.
+        Jede Einwilligung kann von der betreffenden Person auch widerrufen werden. Ein solcher Widerruf muss in den Strukturen und Abläufen der Software darstellbar sein. Sowohl die Protokollierung wann der Widerruf auf welche Art stattfand ist relevant, als auch die Sicherstellung, dass der Widerruf wirksam ist.
 
     .. hint:: Widerrufe protokollieren.
 
@@ -167,26 +159,26 @@ http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv%3AOJ.L_.2016.119.01.0
     :inline-contents: True
 
     Kategorien personenbezogener Daten
-        Der Verantwortliche muss dokumentieren, welche personenbezogenen Daten verarbeitet werden. Entwickler können den Anwender der Software dadurch unterstützen, dass sie das Datenmodell im Handbuch dokumentieren.
+        Der Verantwortliche muss dokumentieren, welche personenbezogenen Daten verarbeitet werden. Entwickler können den Anwender der Software dadurch unterstützen, dass sie das Datenmodell im Handbuch vollständig dokumentieren.
 
-    .. hint:: Datenstrukturen / -modell in die Dokumentation!
+    .. hint:: Datenstrukturen / -modelle in die Dokumentation!
 
 .. slide:: Gesetzliche Pflichten des Verantwortlichen
     :level: 2
     :inline-contents: True
 
     Auskunftsprozess
-        Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Möglichkeiten vorsehen, die eine solche Beauskunftung erleichtern. Die Auskunft muss alle Daten zu einer Person umfassen. Aus allen Datenbanken und aus allen Tabellen. 
-        
+        Eine betroffene Person kann beim Verantwortlichen Auskunft verlangen. Diese Auskunft muss vollständig und korrekt sein. Softwareentwickler sollten Möglichkeiten vorsehen, die eine solche Beauskunftung erleichtern. Die Auskunft muss alle Daten zu einer Person umfassen. Aus allen Datenbanken und aus allen Tabellen.
+
     .. hint:: Vollständige und korrekte Beauskunftung durch Funktion oder Dokumentation gewährleisten.
-    
+
 .. slide:: Gesetzliche Pflichten des Verantwortlichen
     :level: 2
     :inline-contents: True
 
     Übermittlungen
         Künftig muss der Verantwortliche angeben können, an welche Empfänger oder Empfängerkategorien Daten übermittelt wurden, zum Beispiel bei:
-        
+
         * Speicherplatz in der Cloud
         * Nutzung von Single Sign On Systemen (OpenID etc.)
         * User Tracking durch Dritte (Google & Co.)
@@ -198,7 +190,7 @@ http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv%3AOJ.L_.2016.119.01.0
 Die wichtigsten Betroffenenrechte nach EU-DSGVO
 -----------------------------------------------
 
-Einige Rechte der betroffenen Person (das ist immer der Besitzer der personenbezogenen Daten) erfordern ebenfalls bestimmte Funktionen in der Software.
+Einige Rechte der betroffenen Person (das ist immer der Eigentümer der personenbezogenen Daten) erfordern bestimmte Funktionen in der Software.
 
 .. slide:: Die wichtigsten Betroffenenrechte nach EU-DSGVO
     :level: 2
@@ -207,7 +199,7 @@ Einige Rechte der betroffenen Person (das ist immer der Besitzer der personenbez
     Recht auf Berichtigung (Art. 16)
         Alle gespeicherten Daten der betroffenen Person müssen editierbar sein.
     Recht auf Löschung („Recht auf Vergessenwerden“) (Art. 17)
-        Alle gespeicherten Daten der betroffenen Person müssen löschbar sein.
+        Alle gespeicherten Daten der betroffenen Person müssen löschbar sein, solange keine gesetzlichen Aufbewahrungsfristen dagegen stehen.
     Löschung öffentlicher Daten („Vergessen“) (Art. 17 Abs. 2)
         Bei einem Löschbegehren hat der Verantwortliche die Pflicht, andere Empfänger dieser Daten darüber zu informieren, dass ein solches Löschen vom Betroffenen verlangt wird. Die Software muss also nachhalten können, an welche Empfänger Daten in der Vergangenheit übermittelt wurden.
 
@@ -216,15 +208,52 @@ Einige Rechte der betroffenen Person (das ist immer der Besitzer der personenbez
     :inline-contents: True
 
     Recht auf Einschränkung der Verarbeitung (Art. 18)
-        Eine betroffene person kann verlangen, dass ihre Daten nicht gelöscht, sondern für die weitere Verarbeitung gesperrt werden. Wird die Verarbeitung auf diese Art eingeschränkt, dürfen die Daten nur noch gespeichert werden, nicht mehr anderweitig genutzt, übermittelt, geändert oder gelöscht werden.
+        Eine betroffene Person kann verlangen, dass ihre Daten nicht gelöscht, sondern für die weitere Verarbeitung gesperrt werden. Wird die Verarbeitung auf diese Art eingeschränkt, dürfen die Daten nur noch gespeichert werden, nicht mehr anderweitig genutzt, übermittelt, geändert oder gelöscht werden.
         Die Software muss ein entsprechendes „Einschränkungs-Kennzeichen“ im Datenmodell berücksichtigen.
     Recht auf Datenübertragbarkeit „Datenportabilität“ (Art. 20)
         Künftig haben betroffene Personen das Recht darauf, ihre eigenen Daten in einem nutzbaren Format zu erhalten. Die Software sollte eine entsprechende Export-Funktion enthalten. Nutzbare Formate könnten zum Beipiel JSON, XML oder ein CSV-Dump sein.
+        
+        
+Datenschutz by Design und by Default (Art. 25)
+----------------------------------------------
 
-Wieso muss ich an mehr als an Security Standards denken?
-========================================================
+.. slide:: Datenschutz by Design (Art. 25)
+    :level: 2
+    :inline-contents: True
 
-.. slide:: Wieso muss ich an mehr als an Security Standards denken?
+    Der Verantwortliche sorgt
+
+    * zum Zeitpunkt der Festlegung der Mittel
+    * zum Zeitpunkt der eigentlichen Verarbeitung
+
+    für geeignete technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten
+
+Artikel 25 der EU-DSGVO „Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen“ verlangt vom Verarbeiter, dass sowohl bei der Festlegung der Mittel für die Verarbeitung, also auch beim Definieren der Anforderungen der Funktionen und Datenstrukturen der Software, als auch beim Betreiben, also beim Nutzen der Software, Datenschutz eingehalten wird:
+
+    Art. 25 Abs. 1: Unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere der mit der Verarbeitung verbundenen Risiken für die Rechte und Freiheiten natürlicher Personen trifft der Verantwortliche sowohl zum Zeitpunkt der Festlegung der Mittel für die Verarbeitung als auch zum Zeitpunkt der eigentlichen Verarbeitung geeignete technische und organisatorische Maßnahmen — wie z. B. Pseudonymisierung — trifft, die dafür ausgelegt sind, die Datenschutzgrundsätze wie etwa Datenminimierung wirksam umzusetzen und die notwendigen Garantien in die Verarbeitung aufzunehmen, um den Anforderungen dieser Verordnung zu genügen und die Rechte der betroffenen Personen zu schützen.
+
+.. slide:: Datenschutz by Default (Art. 25)
+    :level: 2
+    :inline-contents: True
+
+    Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, die sicherstellen, dass
+
+    * Datenminimierung
+    * Zweckgebundenheit
+    * Vertraulichkeit
+
+    gewährleistet ist.
+
+
+Bei der Verarbeitung, muss eine Software datenschutzfreundliche Voreinstellungen aufweisen:
+
+    Art. 25 Abs. 2: Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, die sicherstellen, dass durch Voreinstellung grundsätzlich nur personenbezogene Daten, deren Verarbeitung für den jeweiligen bestimmten Verarbeitungszweck erforderlich ist, verarbeitet werden. Diese Verpflichtung gilt für die Menge der erhobenen personenbezogenen Daten, den Umfang ihrer Verarbeitung, ihre Speicherfrist und ihre Zugänglichkeit. Solche Maßnahmen müssen insbesondere sicherstellen, dass personenbezogene Daten durch Voreinstellungen nicht ohne Eingreifen der Person einer unbestimmten Zahl von natürlichen Personen zugänglich gemacht werden.
+        
+
+Wieso reicht es nicht, dass mein Code sicher ist?
+=================================================
+
+.. slide:: Wieso reicht es nicht, dass mein Code sicher ist?
     :level: 1
 
 .. slide:: Datenschutz vs. Informationssicherheit
@@ -242,11 +271,9 @@ Wieso muss ich an mehr als an Security Standards denken?
 
    Überschneidungen der Maßnahmen bei Datenschutz (DS) und Informationssicherheit (IS)
 
-Datenschutz ist nicht gleich Datensicherheit. Datenschutz ist auch nicht nur der Schutz von Daten!
+Datenschutz (DS) ist nicht gleich Informationssicherheit (IS). Datenschutz ist auch nicht nur der Schutz von Daten, sondern auch aber nicht nur die Einhaltung aller Betroffenenreche!
 
-Datensicherheit ist eine Teilmenge des Datenschutzes und manche Maßnahmen, die die Datensicherheit erhöhen, senken den Datenschutz.
-
-Maßnahmen, die die Informationssicherheit (IS) verbessern können unter Umständen den Datenschutz (DS) senken. Umgekehrt ebenfalls.
+.. attention:: Maßnahmen, die die Informationssicherheit verbessern können unter Umständen den Datenschutz senken. Umgekehrt ebenfalls.
 
 Die 7 Schutzziele des Datenschutzes
 -----------------------------------
@@ -258,49 +285,87 @@ Die 7 Schutzziele des Datenschutzes
 
     Datensparsamkeit (DS)
         Es werden nur die personenbezogenen Daten verarbeitet, die für den jeweiligen Verarbeitungsschritt erforderlich sind.
+        
+        .. hint:: 
+        
+            * Die Datenmodelle müssen auf die Erforderlichkeit der Datenfelder überprüft werden
+            * Keine Verarbeitung „auf Vorrat“!
+            * Temporäre Daten frühest möglich löschen. 
+        
 .. slide:: Die 7 Schutzziele des Datenschutzes
     :level: 2
     :inline-contents: True
 
     Integrität (DS & IS)
         Die Verarbeitung findet innerhalb der Spezifikation in der Art statt, dass die Daten unversehrt und vollständig bleiben.
+        
+        .. hint:: 
+            * Tests
+            * Transaktionen nutzen
+            * Tests
+            * DB Prüfsummen aktivieren. (z. B. bei PostgreSQL beim Initialisieren der Datenbank ``initdb ... --data-checksums``\ [#postgresql]_ nutzen.
+            * und Tests
+            
+        
+.. slide:: Die 7 Schutzziele des Datenschutzes
+    :level: 2
+    :inline-contents: True
+
     Intervenierbarkeit (DS)
         Mit Intervenierbarkeit ist gemeint, dass die datenverarbeitenden Verfahren so gestaltet sind, dass die Rechte der Betroffenen jederzeit und vollständig ausgeübt werden können.
+        
+        .. hint:: 
+            * Betroffenenrechte sicherstellen
+            * Alle Datenstrukturen und -ablagen dokumentieren
+            * Ggfs. Auskunfts-Funktion und Export-Funktion implementieren
+            * Kennzeichen zur Einschränkung der Verarbeitung vorsehen. 
+
 .. slide:: Die 7 Schutzziele des Datenschutzes
     :level: 2
     :inline-contents: True
 
     Nichtverkettbarkeit (DS)
         Das Zusammenführen von Daten, die zu unterschiedlichen Zwecken verarbeitet werden, ist ohne Einwilligung des Betroffenen zu verhindern.
+        
+        .. hint:: Auf die Trennung der Daten und der Zugriffsberechtigungen nach Verarbeitungszweck achten.         
+.. slide:: Die 7 Schutzziele des Datenschutzes
+    :level: 2
+    :inline-contents: True
+    
     Transparenz (DS)
-        Interessierte Parteien (Verantwortlicher, betroffene Person, Aufsicht) können Einsicht nehmen und nachvollziehen, welche Daten zu welchem Zweck mit welchen Mitteln verarbeitet werden.
+        Interessierte Parteien (Verantwortlicher, betroffene Person, Datenschutz-Aufsichtsbehörde) können Einsicht nehmen und nachvollziehen, welche Daten zu welchem Zweck mit welchen Mitteln verarbeitet werden.
+
+    .. hint:: Doku, Doku, Doku, ...
+        * Datenmodelle, -strukturen, -formate
+        * Abläufe
+        * Berechtigungen.
+
 .. slide:: Die 7 Schutzziele des Datenschutzes
     :level: 2
     :inline-contents: True
 
     Verfügbarkeit  (DS & IS)
         Die personenbezogenen Daten stehen zeitgerecht zur Verfügung, sind auffindbar und werden in den zugeordneten Prozessen sachgerecht verarbeitet.
-    Vertraulichkeit  (DS & IS)
-        Nur befugte Personen können auf die Daten zugreifen. Befugt sind nur die Personen, deren zweckgebundene Aufgabenerfüllung den Zugriff auf die Daten erforderlich macht.
+        
+    .. hint:: 
+        * Doku
+        * Tests
+        * Backup
+        * Exportfunktion („Recht auf Datenportabilität“)
 
-Mögliche Konflikte von Schutzmaßnahmen
-----------------------------------------
-
-.. slide:: Mögliche Konflikte von Schutzmaßnahmen
+.. slide:: Die 7 Schutzziele des Datenschutzes
     :level: 2
     :inline-contents: True
 
-    .. csv-table:: Auswirkungen der Maßnahmen für ...
-        :header: "","Informationssicherheit (IS)","Datenschutz (DS)"
+    Vertraulichkeit  (DS & IS)
+        Nur befugte Personen können auf die Daten zugreifen. Befugt sind nur die Personen, deren zweckgebundene Aufgabenerfüllung den Zugriff auf die Daten erforderlich macht.
 
-        "Webproxy","gut","schlecht"
-        "Serverprotokolle","gut","schlecht"
-        "Eingabekontrolle","gut","gut"
-        "Intervenierbarkeit","schlecht","gut"
-        "Transparenz","schlecht","gut"
-        "Integrität","gut","gut"
-        "Richtlinien für Mitarbeiter","gut","gut"
-
+    .. hint:: 
+        * Berechtigungskonzept
+        * Zugriffrechte und -rollen
+        * Protokollierung von Zugriffen
+        * Ggfs. Vier-Augen-Prinzip.
+    
 
 Worum geht es beim Datenschutz jetzt wirklich?
 ----------------------------------------------
@@ -323,57 +388,16 @@ Datenschutz soll folgende Aspekte der Datenverarbeitung sicherstellen.
       * kann die Einwilligung zur Verarbeitung widerufen.
 
 
-Sichere Software und sicher Laufzeitumgebungen stellen nicht zwangsläufig und automatisch die genannten Punkte sicher.
+Sichere Software und sichere Laufzeitumgebungen stellen nicht zwangsläufig und automatisch die genannten Punkte sicher. 
 
-Datenschutzaspekte der Software gehören als *user story* ins *backlog*.
-
-Datenschutz by Design und by Default (Art. 25)
-==============================================
-
-.. slide:: Datenschutz by Design und by Default (Art. 25)
-    :level: 1
-
-.. slide:: Datenschutz by Design 
-    :level: 2
-    
-    Der Verantwortliche sorgt
-    
-    * zum Zeitpunkt der Festlegung der Mittel
-    * zum Zeitpunkt der eigentlichen Verarbeitung
-    
-    für geeignete technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten
-
-Artikel 25 der EU-DSGVO „Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen“ verlangt vom Verarbeiter, dass sowohl bei der Festlegung der Mittel für die Verarbeitung, also auch beim Definieren der Anforderungen der Funktionen und Datenstrukturen der Software, als auch beim Betreiben, also beim Nutzen der Software, Datenschutz eingehalten wird:
-
-    Art. 25 Abs. 1: Unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere der mit der Verarbeitung verbundenen Risiken für die Rechte und Freiheiten natürlicher Personen trifft der Verantwortliche sowohl zum Zeitpunkt der Festlegung der Mittel für die Verarbeitung als auch zum Zeitpunkt der eigentlichen Verarbeitung geeignete technische und organisatorische Maßnahmen — wie z. B. Pseudonymisierung — trifft, die dafür ausgelegt sind, die Datenschutzgrundsätze wie etwa Datenminimierung wirksam umzusetzen und die notwendigen Garantien in die Verarbeitung aufzunehmen, um den Anforderungen dieser Verordnung zu genügen und die Rechte der betroffenen Personen zu schützen.
-    
-.. slide:: Datenschutz by Default
-    :level: 2
-    
-    Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, die sicherstellen, dass
-    
-    * Datenminimierung
-    * Zweckgebundenheit
-    * Vertraulichkeit
-    
-    gewährleistet ist.
+.. hint:: Datenschutzaspekte der Software gehören als *user story* ins *backlog*.
 
 
-Bei der Verarbeitung, muss eine Software datenschutzfreundliche Voreinstellungen aufweisen:
+Beispiele?
+==========
 
-    Art. 25 Abs. 2: Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, die sicherstellen, dass durch Voreinstellung grundsätzlich nur personenbezogene Daten, deren Verarbeitung für den jeweiligen bestimmten Verarbeitungszweck erforderlich ist, verarbeitet werden. Diese Verpflichtung gilt für die Menge der erhobenen personenbezogenen Daten, den Umfang ihrer Verarbeitung, ihre Speicherfrist und ihre Zugänglichkeit. Solche Maßnahmen müssen insbesondere sicherstellen, dass personenbezogene Daten durch Voreinstellungen nicht ohne Eingreifen der Person einer unbestimmten Zahl von natürlichen Personen zugänglich gemacht werden.
-    
-
-
-Um welche Teile meiner Arbeit geht es?
-======================================
-
-Als Coder sind die nachfolgenden Aspekte zu berücksichtigen.
-
-
-
-Personenbezogene Daten im iPhone
---------------------------------
+Beispiel: Personenbezogene Daten im iPhone
+------------------------------------------
 
 *Personenbezogene Daten* sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person.
 
@@ -390,9 +414,11 @@ Personenbezogene Daten im iPhone
 
        Personenbezogene Daten in Apples iPhone unter iOS 10
 
+Bei Nutzung dieser Daten durch Eure Software muss die Erforderlichkeit sichergestellt sein. Diese Art IDs sollten nicht *einfach nur so* von Euren Apps mitgespeichert werden.
 
-Personenbezogene Daten beim Tracking
-------------------------------------
+
+Beispiel: Personenbezogene Daten beim Tracking
+----------------------------------------------
 
 Das Erstellen von pseudonymen Nutzungsprofilen ist in Grenzen erlaubt. § 15 TMG Abs. 3:
 
@@ -409,9 +435,12 @@ Das Erstellen von pseudonymen Nutzungsprofilen ist in Grenzen erlaubt. § 15 TMG
 
        Widerspruchsmöglichkeit gegen Tracking in der Bahn App
 
+Jede Form von Tracking muss vom Nutzer erlaubt werden. Die so genannte Cookie-Richtlinie verlangt es, den Nutzer zu informieren und ein Opt-In zu gestalten.\ [#cookies]_
 
-Personenbezogene Daten in der Django Middleware
------------------------------------------------
+
+
+Beispiel: Personenbezogene Daten in der Django Middleware
+---------------------------------------------------------
 
 .. slide:: Personenbezogene Daten sind fast überall
     :level: 2
@@ -447,8 +476,8 @@ django.contrib.auth.middleware.SessionAuthenticationMiddleware
     Sessionverwaltung, siehe oben.
 
 
-Personenbezogene Daten im Django Datenmodell
---------------------------------------------
+Beispiel: Personenbezogene Daten im Django Datenmodell
+------------------------------------------------------
 
 .. slide:: Personenbezogene Daten sind fast überall
     :level: 2
@@ -472,8 +501,8 @@ Personenbezogene Daten im Django Datenmodell
 In diesem Code-Block werden Benutzerdaten (Vorname, Nachname) zu einer digitalen Identität (``user``) zugespeichert.
 
 
-Personenbezogene Daten im Web-Frontend
---------------------------------------
+Beispiel: Personenbezogene Daten im Web-Frontend
+------------------------------------------------
 
 Profil- oder Kontaktformulare enthalten personenbezogene Daten. In den Zeilen 8 und 9 werden Formulare automatisch erzeigt, mit denen die Daten durch das Netz an den Client und wieder zurück gesendet werden.
 
@@ -504,251 +533,10 @@ Profil- oder Kontaktformulare enthalten personenbezogene Daten. In den Zeilen 8 
         </div>
 
 
-Best Practices
-==============
-
-
-
 Quellen
 =======
 
 
-
-Grundsätze des Datenschutzes
-============================
-
-Sowohl heute im BDSG als auch ab dem 25. Mai 2018 in der kommenden EU-Datenschutz-Grundverordnung gilt das Verbot der Verarbeitung personenbezogener Daten mit Erlaubnisvorbehalt.
-
-Deadline 25. Mai 2018
----------------------
-
-Der Termin steht fest. Software, die heute geschrieben wird, sollte die Grundverordnung berücksichtigen.
-
-Die EU-Datenschutzgrundverordnung
----------------------------------
-
-*Verordnung des Europäischen Parlaments und des Rates zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung)*
-
-Ab dem 25. Mai 2018 wird die EU-Datenschutz-Grundverordnung (EU-DSGVO) für alle Verarbeiter personenbezogener Daten angewendet, die in der EU ihre Produkte oder Dienstleistungen anbieten.
-
-http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv%3AOJ.L_.2016.119.01.0001.01.DEU&toc=OJ:L:2016:119:TOC
-
-
-Was sind personenbezogene Daten?
---------------------------------
-
-
-* *Personenbezogene Daten* sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person.
-* *Besondere Arten personenbezogener Daten* sind Angaben über rassische und ethnische Herkunft, politische Meinungen, religiöse oder philosophische / weltanschauliche Überzeugungen, Gewerkschaftszugehörigkeit, Gesundheit, Sexualleben, biometrische Daten
-
-
-Mit *Daten* ist in diesem Zusammenhang die formalisierte Darstellung von
-Informationen gemeint, die für die Verarbeitung durch Menschen oder
-automatisierte Abläufe geeignet sind.
-
-*Personenbezogene Daten* sind Einzelangaben über persönliche oder sachliche
-Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person.
-
-Die EU-DSGVO definiert in Art. 4 Nr. 1 personenbezogene Daten als: „*alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann*“
-
-*Besondere Arten personenbezogener Daten* sind nach § 3 Abs. 9 BDSG und Art. 9 EU-DSGVO Daten, die Angaben machen über:
-
-* rassische und ethnische Herkunft
-* politische Meinungen
-* religiöse oder philosophische / weltanschauliche Überzeugungen
-* Gewerkschaftszugehörigkeit
-* Gesundheit
-* Sexualleben
-* biometrische Daten
-
-Für die Verarbeitung dieser Art Daten werden hohe Ansprüche an die Schutzmaßnahmen gestellt, die die verantwortliche Stelle ergreifen muss.
-
-Die Verarbeitung der besonderen Kategorien personenbezogener Daten ist untersagt, es sei den, die betroffene Person hat **ausdrücklich** eingewilligt oder eine rechtliche Norm legitimiert die Verarbeitung.
-
-Eine Unterscheidung der personenbezogenen Daten hinsichtlich ihrer privater oder geschäftlicher Natur findet nicht statt. Weder das BDSG noch die EU-DSGVO unterscheiden zwischen einer B2C- und B2B-Verarbeitung.
-
-
-Beispiele für personenbezogene Daten
-------------------------------------
-
-* Namen
-* E-Mail Adressen
-* persönliche Durchwahl
-* Anschrift mit Personenbezug, z. B. Personengesellschaft
-* Tracking ID im Web oder Apps
-* AD-ID (Advertising ID)
-* Pseudonym im Web-Forum
-* IP-Adresse
-* IMEI (International Mobile Station Equipment Identity)
-* MEID (Mobile Equipment Identifier)
-* SEID (Secure Element ID Number)
-* und andere UUIDs (Universally Unique Identifier
-
-.. figure:: _static/apple_uuids.png
-   :alt: personenbezogene Daten im Apple iPhone
-   :align: center
-   :width: 40%
-
-   Personenbezogene Daten in Apples iPhone unter iOS 10
-
-Was ist Verarbeiten?
---------------------
-
-*Verarbeiten* ist das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.
-
-Python Code: Beispiele
-======================
-
-Sockets
--------
-
-.. code-block:: python
-    :emphasize-lines: 1,2,3
-
-    import socket
-    sock = socket.socket()
-    sock.connect((address, port))
-
-Beim Öffnen eines Sockets wird die IP-Adresse des Client-PCs an den Server übertragen. Die IP-Adresse ist ein personenbezogenes Datum und wird an jemand anderen übermittelt. Es ist ein datenschutzrelevanter Vorgang.
-
-
-Requests
---------
-
-.. code-block:: python
-
-    import requests
-    requests.get('https://api.someserver.anywhere')
-
-Natürlich werden nicht nur bei low-level Sockets, sondern bei jeder Netzwerkkommunikation personenbezogene Daten ausgetauscht.
-
-
-Django
---------
-.. code-block:: python
-
-    from django.contrib.auth.models import User
-    user = User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
-
-Offensichtlich ist das Anlegen und Verwalten eines Benutzerkontos die Verarbeitung personenbezogener Daten.
-
-.. code-block:: python
-
-    from django.contrib.auth.models import User
-    user = User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
-
-Offensichtlich ist das Anlegen und Verwalten eines Benutzerkontos die Verarbeitung personenbezogener Daten.
-
-
-
-Privacy by Design / Privacy by Default
-======================================
-
-Artikel 25 der EU DSGVO
-
-.. code-block:: python
-
-    SESSION_EXPIRE_AT_BROWSER_CLOSE = True
-    # default: False
-
-Whether to expire the session when the user closes their browser. See Browser-length sessions vs. persistent sessions.
-
-
-
-
-Datenschutz versus Informationssicherheit
------------------------------------------
-
-.. figure:: _static/ds_vs_is.png
-   :alt: Datenschutz versus Informationssicherheit
-   :align: center
-   :width: 100%
-
-   Überschneidungen der Maßnahmen bei Datenschutz und Informationssicherheit
-
-
-Legitimation der Verarbeitung
-=============================
-
-
-Um zu beurteilen, ob personenbezogene Daten verarbeitet werden dürfen, helfen folgende Checklisten, die Rechtsgrundlage für die Verarbeitung zu ermitteln.
-
-Prüfen der Legitimation der Verarbeitung nach EU-DSGVO
-------------------------------------------------------
-
-Falls keiner der Punkte zutreffen sollte, ist eine Verarbeitung der Daten
-nicht möglich.
-
-
-.. csv-table:: Checkliste Rechtmäßigkeit der pbDV nach EU-DSGVO
-    :header: "","**Checkliste Rechtmäßigkeit der pbDV nach EU-DSGVO**",""
-    :widths: 10,70,20
-
-    "","*Eine der folgenden Voraussetzungen trifft zu*","*Gründe*"
-
-    "☐","Die Verarbeitung ist erforderlich zur Erfüllung eines Vertrags mit der betroffenen Person","Art. 6 Abs. 1b, EG 44"
-    "☐","Die Verarbeitung ist erforderlich für vorvertragliche Maßnahmen auf Anfrage der betroffenen Person","Art. 6 Abs. 1b, EG 44"
-    "☐","Die Verarbeitung ist erforderlich zur Erfüllung einer rechtlichen Pflicht des für die Verarbeitung Verantwortlichen","Art. 6 Abs. 1c, EG 45"
-    "☐","Die Verarbeitung ist erforderlich, weil lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person geschützt werden","Art. 6 Abs. 1d, EG 46"
-    "☐","Die Verarbeitung ist erforderlich im öffentlichen Interesse oder in Ausübung öffentlicher Gewalt","Art. 6 Abs. 1e, EG 45"
-    "☐","Berechtigtes Interesse, wenn schutzwürdige Interessen dem nicht entgegen stehen (insbesondere bei Kindern)","Art. 6 Abs. 1f, EG 47"
-    "☐","Einwilligung der Person für einen oder mehrere Zwecke ist nachweisbar","Art. 7 Abs. 1, EG 42"
-
-Falls eine Verarbeitung möglich ist, müssen folgende Grundsätze der Verarbeitung nachweisbar eingehalten werden:
-
-.. csv-table:: Checkliste Grundsätze der pbDV
-    :header: "","**Checkliste Grundsätze der pbDV**",""
-    :widths: 10,70,20
-
-    "","*Alle der folgenden Voraussetzungen treffen zu*","*Gründe*"
-
-    "☐","Die Verarbeitung ist rechtmäßig","Art. 5 Abs. 1a"
-    "☐","Die Verarbeitung erfolgt nach Treu und Glauben","Art. 5 Abs. 1a"
-    "☐","Die Transparenzpflichten sind eingehalten","Art. 5 Abs. 1a, EG 58"
-    "☐","Alle Informationen und Mitteilungen zur Verarbeitung sind leicht erreichbar","EG 39"
-    "☐","Alle Informationen und Mitteilungen zur Verarbeitung sind verständlich und in klarer, einfacher Sprache verfasst","EG 39"
-    "☐","Der Umfang der Verarbeitung ist dokumentiert","EG 39"
-    "☐","Die Zwecke der Verarbeitung sind dokumentiert","EG 39"
-    "☐","Es werden nur die für die Verarbeitung erforderlichen Daten verarbeitet","Art. 5 Abs. 1c"
-    "☐","Die verarbeiteten Daten sind aktuell und sachlich richtig","Art. 5 Abs. 1d"
-    "☐","Unrichtige Daten können unverzüglich gelöscht oder berichtigt werden","Art. 5 Abs. 1d"
-    "☐","Es werden kürzestmögliche Löschfristen eingehalten","Art. 5 Abs. 1e"
-    "☐","Die Daten werden vor unbefugter und unrechtmäßiger Verarbeitung geschützt","Art. 5 Abs. 1f"
-    "☐","Die Daten werden vor unbeabsichtigter Zerstörung und Schädigung geschützt","Art. 5 Abs. 1f"
-    "☐","Die vorgenannte Maßnahmen können nachgewiesen werden","Art. 5 Abs. 2"
-
-
-Tracking von Personen
----------------------
-
-
-
-Das Erstellen von pseudonymen Nutzungsprofilen ist in Grenzen erlaubt. § 15 TMG Abs. 3:
-
-„*(3) Der Diensteanbieter darf für Zwecke der Werbung, der Marktforschung oder zur bedarfsgerechten Gestaltung der Telemedien Nutzungsprofile bei Verwendung von Pseudonymen erstellen, sofern der Nutzer dem nicht widerspricht. Der Diensteanbieter hat den Nutzer auf sein Widerspruchsrecht im Rahmen der Unterrichtung nach § 13 Abs. 1 hinzuweisen.*“
-
-Tracking muss in der Datenschutzerklärung deklariert werden. In der Datenschutzerklärung muss ausserdem dargestellt werden, dass der Nutzer widersprechen und wie sich der Nutzer vom Tracking abmelden kann („Opt-Out“ laut § 13 TMG ). Auf diese Möglichkeit ist vor Beginn des Trackings hinzuweisen. Alternativ kann er beim ersten Besuch aufgefordert werden, in das Tracking einzuwilligen („Opt-In“ laut E-Privacy-Richtlinie Nr. 2009/136/EG, auch „Cookie-Richtlinie)
-
-Für Apps gelten die gleichen Vorgaben wie für Webseiten.
-
-.. figure:: _static/bahn_app.png
-   :alt: Widerspruchsmöglichkeit gegen Tracking in der Bahn App
-   :align: center
-   :width: 40%
-
-   Widerspruchsmöglichkeit gegen Tracking in der Bahn App
-
-
-
-Pflichten des Verantwortlichen nach EU-DSGVO
-============================================
-
-* Informationspflicht bei
-
-    * Erhebung bei betroffener Person (Art. 13)
-    * Erhebung nicht bei der betroffenen Person (Art. 14)
-    * Zweckänderung (Art. 13 Abs. 3 und Art 14 Abs. 4)
-
-* Datenschutz by design / by default  (Art. 25)
-* Durchführung von Datenschutz-Folgenabschätzung (Art. 35)
-
+.. [#cookies] http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:337:0011:0036:de:PDF
+.. [#dbcccheckdb] https://msdn.microsoft.com/en-us/library/ms176064.aspx
+.. [#postgresql] http://www.postgresql.org/docs/current/static/app-initdb.html#APP-INITDB-DATA-CHECKSUMS
