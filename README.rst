@@ -1,28 +1,14 @@
-Lehrerfortbildung 
-=================
+=============================
+Datenschutz und Programmierer
+=============================
 
-Veranstaltung am 2016-11-03.
+Professionelle Programmierer, deren Produkte auch personenbezogene Daten verarbeiten, sollten sich im eigenen Interesse ab sofort mit dem Thema Datenschutz beschäftigen und damit sicherstellen, dass ihre Software auch in Zukunft noch benutzt werden darf. Am 25. Mai 2016 ist die EU-Datenschutz Grundverordnung (EU-DSGVO) in Kraft getreten. Diese Vorschrift muss bei der Verarbeitung von personenbezogene Daten ab dem 25. Mai 2018 obligatorisch eingehalten werden.
 
+Personenbezogene Daten sind beispielsweise Benutzernamen und -anschriften. Aber auch Login-Daten, E-Mail Adressen, Session-Cookies und sämtliche anderen Informationen, die eine natürliche Person identifizierbar machen. Nahezu jede Software verarbeitet in irgendeiner Form personenbezogene Daten.
 
-Die neue EU-Datenschutz-Grundverordnung
-=======================================
+Das neue, europaweit geltende Gesetz enthält konkrete Vorgaben, die Einfluss auf die Gestaltung von Software haben. Der Betreiber der Software, also der Käufer oder Auftraggeber, ist verantwortlich dafür, dass die Software beim Betrieb die Vorgaben EU-DSGVO einhält. Bei Verstoss droht Bußgeld.
 
-Am 25. Mai 2018 wird die neue Datenschutz-Grundverordnung in der Europäischen Union (EU-DSGVO) anzuwendendes Recht. Das neue Recht wirkt sich nicht nur auf jeden EU-Bürger aus, sondern auch auf die Berufswelt. Es stellt Ansprüche nicht nur an Unternehmen, sondern an jeden einzelnen Mitarbeiter, der mit personenbezogenen Daten arbeitet.
+Für den professionellen Programmierer gibt es unter diesen Umständen nur eine logische Schlussfolgerung. Und die lautet: „*Möchte ich künftig meine Software in der EU an den Mann bringen, muss sie EU-DSGVO-konform sein, sonst kauft sie keiner mehr.*“ Schließlich möchte kein Kunde ein Bußgeld riskieren, nur weil der Programmierer die gesetzlichen Vorgaben nicht umgesetzt hat.
 
-Die EU-DSGVO wird im Vergleich zum heute geltenden Datenschutzrecht deutliche Auswirkungen auf Social Media, Cloud-Computing, Softwareentwicklung und Systemhersteller haben. Für Firmen und deren Mitarbeiter gelten viele neue Vorgaben, die nachweisbar eingehalten werden müssen. Die Berufswelt ändert sich.
+Dieser Vortrag beleuchtet die EU-DSGVO aus dem Blickwinkel der Software-Entwickler und -Architekten. Neben einem fundierten Überblick, worum es überhaupt geht, werden auch konkrete Tipps und Tricks aus dem Umfeld der Python Programmierung gegeben. So wird beispielsweise anhand einer Django-App gezeigt, wie Systeme so zu gestalten sind, dass sie auch unter dem neuen Datenschutz-Recht in der EU im geschäftlichen Umfeld einsetzbar und damit an den Kunden zu bringen sind.
 
-Diese Veranstaltung gibt einen Überblick, welche Verantwortlichkeiten auf Unternehmen und deren Mitarbeiter mit der EU-DSGVO zukommen und welche Rechte Personen künftig gegenüber den Datenverarbeitern in Deutschland, Europa und in der ganzen Welt haben.
-
-Inhalte:
-
-- Überblick aktueller Datenschutz in Europa und Deutschland
-- Spannungsfeld Datenschutz und Informationssicherheit
-- Die neuen Pflichten von Unternehmen, die durch deren Mitarbeiter umgesetzt werden müssen
-- Die neue Datenschutz-Folgenabschätzung
-- Die neuen Rechte für Personen gegenüber Organisationen
-- Das Recht auf Vergessenwerden
-- Das Recht auf Datenportabilität
-- Social Media, Cloud Computing, WhatsApp & Co. im Lichte der EU-DSGVO
-- Das müssen Berufseinsteiger von der EU-DSGVO wissen!
-
-Die Teilnehmer kennen am Ende des Veranstaltung die neuen Anforderungen an unternehmerische Organisationen und an deren Mitarbeiter. Sie können darstellen, welche Rechte Personen gegenüber Datenverarbeitern haben werden und wie Unternehmen die Umsetzung der EU-DSGVO organisieren sollten.
